@@ -1,4 +1,5 @@
 
+import LineChart from "./components/LineChart";
 import RichTextEditor from "./components/TitTap/RichTextEditor";
 
 export default function Home() {
@@ -39,7 +40,9 @@ export default function Home() {
           <div className='flex flex-col bg-white rounded-xl p-2 gap-y-3'>
             <h3 className='font-light text-black'>Note</h3>
             <div className='bg-black w-full h-[150px] flex justify-center items-center'>
-              <h3 className='text-white'>Chart</h3>
+              <h3 className='text-white'>
+                <LineChart />
+              </h3>
             </div>
           </div>
         </div>
