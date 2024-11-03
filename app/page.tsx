@@ -48,9 +48,9 @@ export default function Home() {
 
         <div className='col-span-full'>
           <div className='flex flex-col bg-white rounded-xl p-2'>
-            <h3>Bar Chart with tooltip</h3>
+            <h3 className='text-black text-3xl'>Bar Chart with tooltip</h3>
 
-            <div className='relative'>
+            <div className='relative w-full h-[300px]'>
               <BarChartComponent />
             </div>
           </div>
