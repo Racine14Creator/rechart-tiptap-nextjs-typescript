@@ -1,5 +1,7 @@
+import { Bar } from "recharts";
 import LineChartComponent from "./components/LineChart";
 import RichTextEditor from "./components/TitTap/RichTextEditor";
+import BarChartComponent from "./components/BarChart";
 
 export default function Home() {
   return (
@@ -40,6 +42,16 @@ export default function Home() {
             <h3 className='font-light text-black'>Note</h3>
             <div className=' w-full h-[150px] flex justify-center items-center'>
               <LineChartComponent />
+            </div>
+          </div>
+        </div>
+
+        <div className='col-span-full'>
+          <div className='flex flex-col bg-white rounded-xl p-2'>
+            <h3>Bar Chart with tooltip</h3>
+
+            <div className='relative'>
+              <BarChartComponent />
             </div>
           </div>
         </div>
