@@ -29,7 +29,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         suppressHydrationWarning
       >
-        <div className='container max-w-4xl mx-auto'>{children}</div>
+        <div className='container w-full mx-auto'>{children}</div>
       </body>
     </html>
   );

@@ -48,6 +48,11 @@ const data = [
   },
 ];
 
+/**
+ * BarChartComponent renders a bar chart using the Recharts library.
+ * It displays a responsive container with a bar chart of fixed dimensions
+ * that visualizes the 'uv' data from the provided dataset.
+ */
 export default function BarChartComponent() {
   return (
     <div>
