@@ -48,9 +48,9 @@ const BarChartPlot = () => {
             <BarChart width={730} height={250} data={data}>
               <XAxis dataKey="name" />
               <YAxis />
-              <Tooltip />
+              <Tooltip contentStyle={{backgroundColor: "#000", color: "#fff", borderRadius: "10px"}}/>
               <Legend />
-              <Bar dataKey="high" fill="#82ca9d" />
+              <Bar dataKey="high" fill="#1E468C" />
               {/* <Bar dataKey="low" fill="#FA8072" /> */}
             </BarChart>
           </ResponsiveContainer>3
