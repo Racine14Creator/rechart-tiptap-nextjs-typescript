@@ -1,6 +1,7 @@
 "use client";
 
 import AreaChartPlot from "./AreaChartPlot";
+import BarChartPlot from "./BarChartPlot";
 
 const Charts = () => {
   return (
@@ -43,7 +44,9 @@ const Charts = () => {
           <AreaChartPlot />
         </div>
 
-        <div className='w-1/2 h-[300px] bg-gray-700 rounded'></div>
+        <div className='w-1/2 h-[300px] bg-gray-700 rounded'>
+          <BarChartPlot />
+        </div>
       </section>
 
       <section className='flex my-4 px-4 gap-2'>
