@@ -2,6 +2,9 @@
 
 import AreaChartPlot from "./AreaChartPlot";
 import BarChartPlot from "./BarChartPlot";
+import LineChartPlot from "./LineChartPlot";
+import PieChartPlot from "./PieChartPlot";
+import RadarChartPlot from "./RadarChartPlot";
 
 const Charts = () => {
   return (
@@ -50,9 +53,15 @@ const Charts = () => {
       </section>
 
       <section className='flex my-4 px-4 gap-2'>
-        <div className=' w-1/3 h-[250px] bg-gray-700 rounded'></div>
-        <div className=' w-1/3 h-[250px] bg-gray-700 rounded'></div>
-        <div className=' w-1/3 h-[250px] bg-gray-700 rounded'></div>
+        <div className=' w-1/3 h-[250px] bg-gray-700 rounded'>
+          <PieChartPlot />
+        </div>
+        <div className=' w-1/3 h-[250px] bg-gray-700 rounded'>
+          <LineChartPlot />
+        </div>
+        <div className=' w-1/3 h-[250px] bg-gray-700 rounded'>
+          <RadarChartPlot />
+        </div>
       </section>
     </>
   );

@@ -51,9 +51,9 @@ const BarChartPlot = () => {
               <Tooltip />
               <Legend />
               <Bar dataKey="high" fill="#82ca9d" />
-              <Bar dataKey="low" fill="#FA8072" />
+              {/* <Bar dataKey="low" fill="#FA8072" /> */}
             </BarChart>
-          </ResponsiveContainer>
+          </ResponsiveContainer>3
         </>
       );
   } 
